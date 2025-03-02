@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: bisque;
+}
+p{
+    margin: 0.5rem;
+}
+.container{
+    background-color: aliceblue;
+    width: 40vh;
+    min-height: 45vh;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.amount,.dropdown,.select-container{
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+}
+button,input,select{
+    width: 100%;
+    border: none;
+}
+input,select,button{
+border: 1px solid gray;
+font-size: 1rem;
+padding-left: 0.5rem;
+height: 1.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container img{
+width: 2.5rem;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+}
